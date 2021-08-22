@@ -1,0 +1,162 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.Welcome {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 70px;
+  
+}
+
+.Click {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  
+}
+
+
+
+.portrait {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+}
+
+
+.webflex {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  left: 50%;
+  bottom: 20px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  text-align: center;
+}
+
+
+
+
+.contents {
+  word-break: break-all;
+}
+
+.home {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  text-decoration: none;
+
+}
+
+.tabs {
+  font-weight: bold;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  
+}
+
+
+
+a {
+  text-decoration: none; /* removes underlines on links */
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  
+} 
+
+.links {
+  text-align: center;
+  font-size: 20px;
+
+}
+
+
+
+ .home2 {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  size: 30px;
+
+ }
+
+
+p {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  font-size: 20px;
+}
+
+.row {
+  margin: 0 -5px;
+}
+
+
+
+.bio {
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  padding-left: auto;
+  padding-right: auto;
+  color: rgb(0, 0, 0);
+}
+
+
+b {
+  color: rgb(0, 0, 0);
+  font-weight: 1000;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  
+}
+
+
+.photography {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+}
+
+#instagram {
+  text-decoration: underline;
+}
+
+#contact {
+  text-decoration: underline;
+}
+
+
+#resume {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
