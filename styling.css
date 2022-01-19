@@ -38,7 +38,7 @@ body {
   transform: translate(-50%, -50%);
   margin: 0 auto;
   color: rgb(0, 0, 0.747);
-  font-size: 15px;
+  font-size: 18px;
   text-align: center;
 }
 
@@ -57,7 +57,7 @@ body {
 
 .tabs {
   font-weight: bold;
-  font-size: 15px;
+  font-size: 19px;
   font-family: "Montserrat", sans-serif;
   font-family: "Oswald", sans-serif;
   text-decoration: none;
