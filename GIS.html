@@ -15,6 +15,14 @@
           border-color: black;
           border-width: 1px;
       }
+      #heat{
+        height: 350px;
+          width: 350px;
+          margin-left: auto;
+          margin-right: auto;
+          
+      }
+      
   </style>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
@@ -23,6 +31,7 @@
   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
   crossorigin=""></script>  
+  <script src="heatmap/leaflet-providers.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!--put boostrap CDN before own css style sheet so that it doesn't interfere with it-->
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
@@ -70,7 +79,7 @@
     </div>
   </div>
   <div class="card">
-    <img class="card-img-top" src="images/web_heat_map.jpeg" alt="Card image cap">
+    <img class="card-img-top" src="images/web_heat_map.jpeg"  alt="Card image cap">
     <div class="card-body">
       <p class="card-text">This is a <b>heat map</b> depicting the concentration of electric scooter infractions that were committed
         during the pilot week of their introductions to the city of Knoxville, TN. Infractions were recorded on foot by taking pictures of them, as well as their 
