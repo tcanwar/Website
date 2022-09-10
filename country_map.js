@@ -1,7 +1,10 @@
 var mymap = L.map('mapid').setView([51.505, -0.09], 2);
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-	
-	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> <a href="http://openstreetmap.org"></a> </a> ©tcanwar'
+L.tileLayer('https://{s}.tile.jawg.io/jawg-dark/{z}/{x}/{y}{r}.png?access-token={accessToken}', {
+	attribution: '<a href="http://jawg.io" title="Tiles Courtesy of Jawg Maps" target="_blank">&copy; <b>Jawg</b>Maps</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors </a> ©tcanwar',
+	minZoom: 0,
+	maxZoom: 22,
+	subdomains: 'abcd',
+	accessToken: 'cQZtHWLeXeKuay4Ae63caTB4YmU78BwzF6PKsNSf1iZrHxjk8kGN81oGyBh6nAvw'
 
     }).addTo(mymap);
 
