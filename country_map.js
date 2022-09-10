@@ -1,6 +1,6 @@
 var mymap = L.map('mapid').setView([51.505, -0.09], 2);
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> Tarik Anwar'
+L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> ©tcanwar'
     }).addTo(mymap);
 
 var myStyle = {

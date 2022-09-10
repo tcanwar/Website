@@ -44,6 +44,19 @@ body {
   text-align: center;
 }
 
+.copyright {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Oswald", sans-serif;
+  left: 50%;
+  bottom: 20px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  color: rgb(0, 0, 0.747);
+  font-size: 18px;
+  text-align: center;
+}
+
 .contents {
   word-break: break-all;
 }
