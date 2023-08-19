@@ -10,6 +10,11 @@ body {
   font-size: 70px;
 }
 
+.back_to_front_page {
+  text-align: center;
+  text-decoration: underline;
+}
+
 .Click {
   font-family: "Montserrat", sans-serif;
   font-family: "Oswald", sans-serif;
