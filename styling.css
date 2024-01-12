@@ -28,12 +28,22 @@ body {
   margin-left: auto;
   margin-right: auto;
   border-style: solid;
-  height: 430;
-  width: 350px;
+  height: 230px;
+  width: 200px;
   border-color: rgb(0, 0, 0.747);
   border-width: 1px;
 }
 
+.home_portrait {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  height: 200px;
+  width: 150px;
+  border-color: rgb(0, 0, 0.747);
+  border-width: 1px;
+}
 
 
 .webflex {
