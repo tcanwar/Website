@@ -1,12 +1,12 @@
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
 }
 
 .Welcome {
   font-family: "Montserrat", sans-serif;
   font-family: "Oswald", sans-serif;
   text-align: center;
-  color: rgb(0, 0, 0.747);
+  color: rgb(255, 255, 255);
   font-size: 70px;
 }
 
@@ -19,7 +19,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-family: "Oswald", sans-serif;
   text-align: center;
-  color: rgb(0, 0, 0.747);
+  color: rgb(255, 255, 255);
   font-size: 25px;
 }
 
@@ -30,7 +30,7 @@ body {
   border-style: solid;
   height: 230px;
   width: 200px;
-  border-color: rgb(0, 0, 0.747);
+  border-color: rgb(255, 255, 255);
   border-width: 1px;
 }
 
@@ -41,7 +41,7 @@ body {
   border-style: solid;
   height: 200px;
   width: 150px;
-  border-color: rgb(0, 0, 0.747);
+  border-color: rgb(255, 255, 255);
   border-width: 1px;
 }
 
@@ -54,7 +54,7 @@ body {
   bottom: 20px;
   transform: translate(-50%, -50%);
   margin: 0 auto;
-  color: rgb(0, 0, 0.747);
+  color: rgb(255, 255, 255);
   font-size: 18px;
   text-align: center;
 }
@@ -67,7 +67,7 @@ body {
   bottom: 20px;
   transform: translate(-50%, -50%);
   margin: 0 auto;
-  color: rgb(0, 0, 0.747);
+  color: rgb(255, 255, 255);
   font-size: 18px;
   text-align: center;
 }
@@ -80,7 +80,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-family: "Oswald", sans-serif;
   text-align: center;
-  color: rgb(0, 0, 0.747);
+  color: rgb(255, 255, 255);
   font-size: 30px;
   text-decoration: none;
 }
@@ -94,10 +94,9 @@ body {
 }
 
 a {
-  text-decoration: none; /* removes underlines on links */
   font-family: "Montserrat", sans-serif;
   font-family: "Oswald", sans-serif;
-  color: rgb(0, 0, 0.747);
+  color: rgb(255, 255, 255);
   text-align: center;
 }
 
@@ -110,7 +109,7 @@ a {
   font-family: "Montserrat", sans-serif;
   font-family: "Oswald", sans-serif;
   text-align: center;
-  color: rgb(0, 0, 0.747);
+  color: rgb(255, 255, 255);
   text-decoration: none;
   size: 30px;
 }
@@ -119,7 +118,7 @@ p {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-family: "Oswald", sans-serif;
-  color: rgba(0, 0, 0, 0.747);
+  color: rgba(255, 255, 255, 0.747);
   font-size: 20px;
 }
 
@@ -133,11 +132,11 @@ p {
   text-align: center;
   padding-left: 40px;
   padding-right: 40px;
-  color: rgba(0, 0, 0, 0.747);
+  color: rgba(255, 255, 255, 0.747);
 }
 
 b {
-  color: rgb(0, 0, 0.747);
+  color: rgb(255, 255, 255);
   font-weight: 1000;
   font-family: "Montserrat", sans-serif;
   font-family: "Oswald", sans-serif;
@@ -148,7 +147,7 @@ b {
   font-family: "Montserrat", sans-serif;
   font-family: "Oswald", sans-serif;
   font-size: 20px;
-  color: rgba(0, 0, 0, 0.747);
+  color: rgba(255, 255, 255, 0.747);
 
 }
 
