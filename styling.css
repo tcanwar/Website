@@ -49,6 +49,7 @@ body {
 .webflex {
   position: relative;
   font-family: "Montserrat", sans-serif;
+  font-style: italic;
   font-family: "Oswald", sans-serif;
   left: 50%;
   bottom: 20px;
