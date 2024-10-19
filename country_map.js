@@ -21,6 +21,16 @@ var myStyle = {
     "opacity": 0.65
 };
 
+var marker = L.marker([51.5, -0.09]).addTo(mymap);
+var marker = L.marker([29.9, -90.08]).addTo(mymap);
+var marker = L.marker([38.8, -116.4]).addTo(mymap);
+var marker = L.marker([31.8, -106.4]).addTo(mymap);
+var marker = L.marker([29.4, -98.4]).addTo(mymap);
+
+
+
+
+
 //https://github.com/PublicaMundi/MappingAPI/blob/master/data/geojson/us-states.json
 //https://github.com/PublicaMundi/MappingAPI/blob/master/data/geojson/countries.geojson
 
