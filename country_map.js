@@ -21,11 +21,9 @@ var myStyle = {
     "opacity": 0.65
 };
 
-var marker = L.marker([51.5, -0.09]).addTo(mymap);
-var marker = L.marker([29.9, -90.08]).addTo(mymap);
-var marker = L.marker([38.8, -116.4]).addTo(mymap);
-var marker = L.marker([31.8, -106.4]).addTo(mymap);
-var marker = L.marker([29.4, -98.4]).addTo(mymap);
+var marker = L.marker([46.5338, 6.5914]).addTo(mymap);
+marker.bindPopup("Where I grew up as a kid.").openPopup();
+
 
 
 
