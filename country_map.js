@@ -21,7 +21,10 @@ var myStyle = {
     "opacity": 0.65
 };
 
-
+var popup = L.popup()
+    .setLatLng([46.5316, 6.5750])
+    .setContent("Where I grew up.")
+    .openOn(mymap);
 
 
 
