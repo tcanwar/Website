@@ -23,6 +23,8 @@ var myStyle = {
 
 
 
+var marker = L.marker([46.5316, 6.5750]).addTo(mymap);
+marker.bindPopup("<u>Chavannes-près-Renens</u><br>Where I grew up!");
 
 
 
