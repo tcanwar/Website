@@ -22,10 +22,32 @@ var myStyle = {
 };
 
 
+// 1. Define a custom icon
+var vaudIcon = L.icon({
+    iconUrl: 'images/vaud.png', // Use any image URL
+    iconSize:     [20, 20], // size of the icon
+    iconAnchor:   [20, 20], // point of the icon which will correspond to marker's location
+    popupAnchor:  [0, -40]  // point from which the popup should open relative to the iconAnchor
+});
 
-var marker = L.marker([46.5316, 6.5750]).addTo(mymap);
+
+var marker = L.marker([46.5316, 6.5750], { icon: vaudIcon}).addTo(mymap);
 marker.bindPopup("<u>Chavannes-près-Renens</u><br>Where I grew up!");
 
+
+// 1. Define a custom icon
+var vaticanIcon = L.icon({
+    iconUrl: 'images/vatican.png', // Use any image URL
+    iconSize:     [20, 20], // size of the icon
+    iconAnchor:   [20, 20], // point of the icon which will correspond to marker's location
+    popupAnchor:  [0, -40]  // point from which the popup should open relative to the iconAnchor
+});
+
+// 2. Add the custom marker to the map
+var marker2 = L.marker([41.90237544725303, 12.452528755163671], { icon: vaticanIcon }).addTo(mymap);
+
+// 3. Bind a popup
+marker2.bindPopup("<u>Città del Vaticano</u>");
 
 
 
