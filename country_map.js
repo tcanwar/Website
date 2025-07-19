@@ -23,6 +23,8 @@ var myStyle = {
     "opacity": 0.65
 };
 
+
+
 var title = L.control({ position: 'topright' });
 
 title.onAdd = function (mymap) {
@@ -32,6 +34,16 @@ title.onAdd = function (mymap) {
 };
 
 title.addTo(mymap);
+
+var bottomLeftTitle = L.control({ position: 'bottomleft' });
+
+bottomLeftTitle.onAdd = function (mymap) {
+  var div = L.DomUtil.create('div', 'map-bottom-title');
+  div.innerHTML = "<p>U.S. States Visited: 20git </p>";
+  return div;
+};
+
+bottomLeftTitle.addTo(mymap);
 
 
 // 1. Define a custom icon
