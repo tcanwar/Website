@@ -48,7 +48,7 @@ bottomLeftTitle.addTo(mymap);
 
 // 1. Define a custom icon
 var vaudIcon = L.icon({
-    iconUrl: 'images/vaud.png', // Use any image URL
+    iconUrl: 'images/chavannes.png', // Use any image URL
     iconSize:     [20, 20], // size of the icon
     iconAnchor:   [20, 20], // point of the icon which will correspond to marker's location
     popupAnchor:  [-10, -20]  // point from which the popup should open relative to the iconAnchor
