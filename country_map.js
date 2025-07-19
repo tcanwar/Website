@@ -15,11 +15,23 @@ L.tileLayer('https://{s}.tile.jawg.io/jawg-dark/{z}/{x}/{y}{r}.png?access-token=
     }).addTo(mymap);
 
 
+    
+
 var myStyle = {
     "color": "#ff7800",
     "weight": 5,
     "opacity": 0.65
 };
+
+var title = L.control({ position: 'topright' });
+
+title.onAdd = function (mymap) {
+  var div = L.DomUtil.create('div', 'map-title');
+  div.innerHTML = "<h4>Countries visited: 18</h4>";
+  return div;
+};
+
+title.addTo(mymap);
 
 
 // 1. Define a custom icon
@@ -27,7 +39,7 @@ var vaudIcon = L.icon({
     iconUrl: 'images/vaud.png', // Use any image URL
     iconSize:     [20, 20], // size of the icon
     iconAnchor:   [20, 20], // point of the icon which will correspond to marker's location
-    popupAnchor:  [0, -40]  // point from which the popup should open relative to the iconAnchor
+    popupAnchor:  [-10, -20]  // point from which the popup should open relative to the iconAnchor
 });
 
 
@@ -40,7 +52,7 @@ var vaticanIcon = L.icon({
     iconUrl: 'images/vatican.png', // Use any image URL
     iconSize:     [20, 20], // size of the icon
     iconAnchor:   [20, 20], // point of the icon which will correspond to marker's location
-    popupAnchor:  [0, -40]  // point from which the popup should open relative to the iconAnchor
+    popupAnchor:  [-10, -20]  // point from which the popup should open relative to the iconAnchor
 });
 
 // 2. Add the custom marker to the map
