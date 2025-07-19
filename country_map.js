@@ -39,7 +39,7 @@ var bottomLeftTitle = L.control({ position: 'bottomleft' });
 
 bottomLeftTitle.onAdd = function (mymap) {
   var div = L.DomUtil.create('div', 'map-bottom-title');
-  div.innerHTML = "<p>U.S. States Visited: 20git </p>";
+  div.innerHTML = "<p>U.S. States Visited: 20 </p>";
   return div;
 };
 
